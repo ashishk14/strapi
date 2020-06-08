@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_activities_titles",
+  "info": {
+    "name": "Title",
+    "icon": "circle"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_de": {
+      "type": "string",
+      "required": true
+    },
+    "title_es": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

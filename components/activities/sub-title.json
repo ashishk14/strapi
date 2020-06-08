@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_activities_sub_titles",
+  "info": {
+    "name": "SubTitle",
+    "icon": "dot-circle"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle_en": {
+      "type": "string"
+    },
+    "subtitle_de": {
+      "type": "string"
+    },
+    "subtitle_es": {
+      "type": "string"
+    }
+  }
+}

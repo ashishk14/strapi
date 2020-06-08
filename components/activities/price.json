@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_activities_prices",
+  "info": {
+    "name": "Price",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "price_en": {
+      "type": "decimal",
+      "required": true
+    },
+    "price_de": {
+      "type": "decimal",
+      "required": true
+    },
+    "price_es": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
