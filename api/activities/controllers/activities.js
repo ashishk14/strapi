@@ -78,7 +78,7 @@ module.exports = {
     const { request } = ctx;
     const { body } = request;
 
-    // Get x-strapi-event in headers
+    // Get x-strapi-event i^[A-Za-z\s']+$n headers
     const strapiEvent = request.header['x-strapi-event'];
     // Check for x-strapi-event, if not found or it is not equal to entry.create, return false
     if (!strapiEvent || strapiEvent !== 'entry.create') return false;
@@ -88,7 +88,7 @@ module.exports = {
 
     // Send automatic email with subject and message
     await strapi.plugins['email'].services.email.send({
-      to: 'info@mallorcard.es', // Automatic email recipient
+      to: 'ashishk1409@gmail.com', // Automatic email recipient
       from: 'dummyforstrapi@gmail.com', // Automatic email sender
       subject: 'New activity is created in activities', // Automatic email subject
       text: `New activity with title, ${body.entry.Title.title_en}, is created in activites content-type.`, // title would be there as it is a required field

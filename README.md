@@ -69,7 +69,7 @@ List of invalid data messages:
 
 ## Send automated email on new activity
 
-Whenever a new `Activity` is created a mail is sent to `info@mallorcard.es` with subject, `New activity is created in activities`.  
+Whenever a new `Activity` is created a mail is sent to `ashishk1409@gmail.com` with subject, `New activity is created in activities`.  
 
 In this application, Nodemailer is used to send email. To change the config of nodemailer, go to `.env` file and change variables with prefix `EMAIL_`. These EMAIL environment variables are consumed in the configuration of nodemailer in `/config/plugin.js` file.
 
